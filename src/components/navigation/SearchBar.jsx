@@ -40,7 +40,7 @@ export default function SearchBar() {
             onClick={() => setExpanded(true)}
             aria-label="Open search"
           >
-            <img src="/search.svg" alt="" className="h-5 w-5" aria-hidden />
+            <img src={`${import.meta.env.BASE_URL}search.svg`} alt="" className="h-5 w-5" aria-hidden />
           </motion.button>
         ) : (
           <motion.form

@@ -113,7 +113,7 @@ export default function OptionB({ isDesktop }) {
               onClick={() => toast('Would navigate to Account')}
               aria-label="Account"
             >
-              <img src="/account.svg" alt="" className="h-5 w-5" aria-hidden />
+              <img src={`${import.meta.env.BASE_URL}account.svg`} alt="" className="h-5 w-5" aria-hidden />
             </button>
             <button
               type="button"
@@ -121,7 +121,7 @@ export default function OptionB({ isDesktop }) {
               onClick={() => toast('Would navigate to Cart')}
               aria-label="Cart"
             >
-              <img src="/shopping-cart.svg" alt="" className="h-5 w-5" aria-hidden />
+              <img src={`${import.meta.env.BASE_URL}shopping-cart.svg`} alt="" className="h-5 w-5" aria-hidden />
             </button>
           </div>
         </div>
@@ -157,7 +157,7 @@ export default function OptionB({ isDesktop }) {
             onClick={() => toast('Would navigate to Cart')}
             aria-label="Cart"
           >
-            <img src="/shopping-cart.svg" alt="" className="h-5 w-5" aria-hidden />
+            <img src={`${import.meta.env.BASE_URL}shopping-cart.svg`} alt="" className="h-5 w-5" aria-hidden />
           </button>
         </div>
       </header>
