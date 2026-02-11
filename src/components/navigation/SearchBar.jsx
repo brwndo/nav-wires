@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useToast } from '../../lib/toast';
+import searchIcon from '../../assets/icons/search.svg';
 
 export default function SearchBar() {
   const [expanded, setExpanded] = useState(false);
@@ -40,7 +41,7 @@ export default function SearchBar() {
             onClick={() => setExpanded(true)}
             aria-label="Open search"
           >
-            <img src={`${import.meta.env.BASE_URL}search.svg`} alt="" className="h-5 w-5" aria-hidden />
+            <img src={searchIcon} alt="" className="h-5 w-5" aria-hidden />
           </motion.button>
         ) : (
           <motion.form

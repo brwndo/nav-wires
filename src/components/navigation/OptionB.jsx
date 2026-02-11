@@ -4,6 +4,8 @@ import { optionBDesktopMenus, optionBMobileSections, optionBFooterLinks } from '
 import MegaMenu from './MegaMenu';
 import MobileMenu from './MobileMenu';
 import SearchBar from './SearchBar';
+import accountIcon from '../../assets/icons/account.svg';
+import shoppingCartIcon from '../../assets/icons/shopping-cart.svg';
 
 const OPEN_DELAY_MS = 150;
 const CLOSE_DELAY_MS = 300;
@@ -113,7 +115,7 @@ export default function OptionB({ isDesktop }) {
               onClick={() => toast('Would navigate to Account')}
               aria-label="Account"
             >
-              <img src={`${import.meta.env.BASE_URL}account.svg`} alt="" className="h-5 w-5" aria-hidden />
+              <img src={accountIcon} alt="" className="h-5 w-5" aria-hidden />
             </button>
             <button
               type="button"
@@ -121,7 +123,7 @@ export default function OptionB({ isDesktop }) {
               onClick={() => toast('Would navigate to Cart')}
               aria-label="Cart"
             >
-              <img src={`${import.meta.env.BASE_URL}shopping-cart.svg`} alt="" className="h-5 w-5" aria-hidden />
+              <img src={shoppingCartIcon} alt="" className="h-5 w-5" aria-hidden />
             </button>
           </div>
         </div>
@@ -157,7 +159,7 @@ export default function OptionB({ isDesktop }) {
             onClick={() => toast('Would navigate to Cart')}
             aria-label="Cart"
           >
-            <img src={`${import.meta.env.BASE_URL}shopping-cart.svg`} alt="" className="h-5 w-5" aria-hidden />
+            <img src={shoppingCartIcon} alt="" className="h-5 w-5" aria-hidden />
           </button>
         </div>
       </header>
