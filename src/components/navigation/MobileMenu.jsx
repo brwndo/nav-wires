@@ -112,7 +112,7 @@ function AccordionNode({ node, depth, onLinkClick }) {
         <button
           type="button"
           className="w-full rounded py-4 text-left text-base font-semibold text-[#333333] transition-colors active:bg-[#E8E8E8] focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[#333333]"
-          style={{ paddingLeft: 16 + indent }}
+          style={{ paddingLeft: 16 + indent, paddingRight: 16 }}
           onClick={() => onLinkClick(node.label)}
         >
           {node.label}
@@ -126,7 +126,7 @@ function AccordionNode({ node, depth, onLinkClick }) {
       <button
         type="button"
         className="flex w-full items-center justify-between rounded py-4 text-left text-base font-semibold text-[#333333] transition-colors active:bg-[#E8E8E8] focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[#333333]"
-        style={{ paddingLeft: 16 + indent }}
+        style={{ paddingLeft: 16 + indent, paddingRight: 16 }}
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
       >
