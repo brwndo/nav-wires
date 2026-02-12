@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const OPTIONS = [
   { id: 'a', label: 'Option A' },
   { id: 'b', label: 'Option B' },
-  { id: 'd', label: 'Option D' },
+  { id: 'd', label: 'Option C' },
 ];
 
 export default function Toggle({ value, onChange }) {

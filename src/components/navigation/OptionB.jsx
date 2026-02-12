@@ -11,10 +11,10 @@ const OPEN_DELAY_MS = 150;
 const CLOSE_DELAY_MS = 300;
 
 const NAV_ITEMS = [
-  { key: 'discover', label: 'Discover' },
   { key: 'mens', label: "Men's" },
   { key: 'womens', label: "Women's" },
   { key: 'collectibles', label: 'Collectibles & Media' },
+  { key: 'discover', label: 'Discover' },
 ];
 
 export default function OptionB({ isDesktop }) {
