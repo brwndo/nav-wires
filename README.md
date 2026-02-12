@@ -11,6 +11,9 @@ npm run dev
 
 Open the URL shown (e.g. http://localhost:5173). Use the **toggle (top-right)** to switch between Option A, Option B, and Option D.
 
+## Github Page
+Open URL: https://brwndo.github.io/nav-wires/#option-b
+
 ## How to use
 
 - **Pattern toggle:** Top-right segmented control — click "Option A", "Option B", or "Option D" to switch. URL hash updates (`#option-a`, `#option-b`, `#option-d`) for sharing.
